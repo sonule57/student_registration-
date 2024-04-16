@@ -1,0 +1,58 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    /* background-color: black; */
+    /* background-image: url(bg.jpg); */
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(249, 223, 231);
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://img.freepik.com/free-photo/organized-desk-with-copy-space_23-2148219270.jpg");
+  
+    /* Control the height of the image */
+    min-height: 300px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 1.0;
+}
+form{
+    margin: auto;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 2%;
+    background-color: transparent;
+    
+}
+div{
+
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+}
+.call{
+    font-size: 1.6rem;
+    margin-top: 5px;
+    color:black;
+}
+
+.btn{
+    height: 5vh;
+    width: 10vw;
+}
